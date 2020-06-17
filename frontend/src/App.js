@@ -80,8 +80,8 @@ class App extends React.Component {
     else {
       if(UserStore.isLoggedIn) {
         return (
-          <div classname="app">
-            <div classname='container'>
+          <div className="app">
+            <div className='container'>
               Welcome {UserStore.username}
               <SubmitButton
                   text = {'Log out'}
